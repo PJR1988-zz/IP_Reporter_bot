@@ -8,6 +8,6 @@ Requirements:
 4. Put token in the bot.py file, in the line:
   token = "bot..." # Dont use separators between "bot" and the token, example: token = "bot123456789:AbCdEfGhIjKlMnOpQrStUvWxYz"
 5. Put chatid in the bot.py file, in the line:
-  chatID =         # Dont use "", put only the ID number, example: chatID = 123456789
-5. Install python3 and python3-pip
-6. install requests (pip3 install requests)
+6. chatID =         # Dont use "", put only the ID number, example: chatID = 123456789
+7. Install python3 and python3-pip
+8. install requests (pip3 install requests)
