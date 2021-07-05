@@ -1,4 +1,4 @@
-# IP_Reporter-_bot
+# IP_Reporter_bot
 This python script use the Telegram API to send the changes in the public IP of the local machine. 
 
 Requirements:
