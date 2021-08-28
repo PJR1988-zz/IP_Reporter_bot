@@ -23,9 +23,9 @@ def checkIP():
 
         if newIP != oldIP:
             os.remove(folder+os.sep+"IP.txt")
-            file = open(folder+os.sep+"IP.txt","w")
-            file.write(str(newIP))
-            file.close()
+            with open(folder+os.sep+"IP.txt","w") as file:
+                file.write(str(newIP))
+                file.close()
 
             result.append(True)
 
@@ -33,8 +33,10 @@ def checkIP():
             result.append(False)
 
     else:
-        file = open(folder+os.sep+"IP.txt","w")
-        file.write(str(newIP))
+        with open(folder+os.sep+"IP.txt","w") as file:
+            file.write(str(newIP))
+            file.close()
+            
         result.append(True)
 
     result.append(str(newIP))
